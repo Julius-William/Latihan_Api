@@ -24,7 +24,7 @@ def getConnection():
 @app.get('/')
 async def getWelcome(): #function handler
     return {
-        "msg": "sample-fastapi-pg"
+        "msg": "sosis goreng"
     }
 
 # endpoint - mengambil data dari database
